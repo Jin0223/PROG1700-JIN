@@ -18,7 +18,10 @@ ID...: W0417939
 __AUTHOR__ = "Jin <w0417939@nscc.ca>"
 
 def main():
-    print("Hello World")
+    myName = input("What is your name: ")
+    Age = input("How old are you: ")
+    print("Hello " + myName + "! You are " + Age + " years old")
+    
 
 if __name__ == "__main__":
     main()
