@@ -33,7 +33,6 @@ def main():
     print("So, your total amount of coffee is " + str(TaxCoffee) + " dollars. ")
     print("Thank you for coming today. Have a good day")
     
-
 if __name__ == "__main__":
     main()
 
