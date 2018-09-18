@@ -17,12 +17,13 @@ def main():
     tax = float(ask) * float(0.15)
     tip = float(ask) * float(0.20) 
     total = float(ask) + float(tax) + float(tip)
+    total1 = round(total, 2)
 
     #output
     print("Your original bill amount is: " + str(ask))
     print("Your tip is: " + str(tip))
     print("Your tax is: " + str(tax))
-    print("Your total is: " + str(total))
+    print("Your total is: " + str(total1))
 
 
 if __name__ == "__main__":
